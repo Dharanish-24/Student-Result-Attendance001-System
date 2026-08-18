@@ -10,8 +10,6 @@ The topics covered include:
 2. Data Types and Memory Basics
 3. Variables, Scope, and Control Flow
 
----
-
 # 1. Java Environment and Program Flow
 
 ## Objective
@@ -71,7 +69,6 @@ Output
 * JVM executes bytecode
 * Java follows "Write Once, Run Anywhere"
 
----
 
 # 2. Data Types and Memory Basics
 
@@ -172,7 +169,6 @@ int age = 22;
 * Variables must be initialized before use
 * Memory is managed by JVM
 
----
 
 # 3. Variables, Scope, and Control Flow
 
@@ -220,8 +216,6 @@ Cannot be reassigned.
 final int MAX_AGE = 100;
 ```
 
----
-
 ## Scope
 
 A variable can only be accessed within its valid region.
@@ -236,8 +230,6 @@ public static void main(String[] args) {
 ```
 
 The variable `age` cannot be used outside the `main()` method.
-
----
 
 ## Conditional Statements
 
@@ -274,8 +266,6 @@ else{
 }
 ```
 
----
-
 ## Switch Statement
 
 ```java
@@ -292,8 +282,6 @@ switch(day){
         System.out.println("Invalid Day");
 }
 ```
-
----
 
 ## Loops
 
@@ -328,7 +316,6 @@ do{
 while(i<=5);
 ```
 
----
 
 ## Break Statement
 
@@ -354,7 +341,7 @@ Output:
 4
 ```
 
----
+
 
 ## Continue Statement
 
@@ -380,7 +367,7 @@ Output:
 5
 ```
 
----
+
 
 # Mini Project Developed
 
@@ -403,19 +390,3 @@ Output:
 * Scanner Input
 * Conditional Statements
 * Program Flow
-
----
-
-# Learning Outcome
-
-Through these concepts, I learned:
-
-* How Java programs are executed
-* How data is stored in memory
-* The difference between primitive and reference types
-* Variable scope and lifetime
-* Decision-making using conditional statements
-* Repetitive execution using loops
-* Program control using break and continue
-
-These concepts form the foundation for advanced Java topics such as Arrays, Methods, Object-Oriented Programming, Collections, and Projects.
